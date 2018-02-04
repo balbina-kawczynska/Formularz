@@ -4,7 +4,7 @@ function db()
 
 //------------------------------------------------------------------------------
     // łączenie z bazą
-    $connect = mysql_connect('localhost', 'root', 'sztuka');
+    $connect = mysql_connect('localhost', 'root', 'toor');
 
     if (!$connect) 
     {
