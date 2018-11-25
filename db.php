@@ -45,7 +45,6 @@ function db()
     }
 
 //------------------------------------------------------------------------------
-    // czy trzeba dodac jakis kod? (w zwiazku z sql injection) 
     // dodawanie danych do bazy danych
     $name = $_POST['name'];
     $email = $_POST['email'];
