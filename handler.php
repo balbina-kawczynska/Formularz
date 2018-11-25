@@ -33,7 +33,6 @@ echo "Message: $message <br><br>";
         window.setTimeout(\"window.location.replace('index.html?id=contactForm');\",10000);
     </script><br><br>";*/
 
-// czy dla walidacji dlugosci zmiennych moznaby zrobic jakis foreach? albo for?
 //------------------------------------------------------------------------------
 // name ma miec dlugosc od 2 do 20 znakow
 if (isset($_POST['name'])) 
