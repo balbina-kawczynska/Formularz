@@ -15,17 +15,17 @@ $("#contactForm").validate({
         },
         age: {
             required: true,
-            range: [1, 147] /* przydaloby sie zeby nie mozna bylo wpisac innych wartosci - jakas blokada/limity(bo mozna wybierac strzalka wiek)? */
+            range: [1, 147]
         }
     },
     messages: {
         name: {
-            required: "This field is required", /* czemu sie blad nie czysci, po uzupelnieniu? */
-            name: "Name not valid, name should have at least 2 characters" /* nie pokazuja sie te komunikaty */
+            required: "This field is required",
+            name: "Name not valid, name should have at least 2 characters"
         },
         message: {
-            required: "This field is required", /* czemu sie blad nie czysci, po uzupelnieniu? */
-            message: "Your message is too long, it should have maximum 1000 characters" /* nie pokazuja sie te komunikaty */
+            required: "This field is required",
+            message: "Your message is too long, it should have maximum 1000 characters"
         },
         email: {
             required: "This field is required",
